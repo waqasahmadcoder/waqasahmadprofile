@@ -1,0 +1,294 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  /* First Navbar Start */
+  .helpnumber p {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  
+  .main-nav {
+    height: 35px;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightseagreen;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .items a {
+    margin: 4px;
+    color: Black;
+  }
+  
+  .items a:hover {
+    color: White;
+  }
+  
+  .logos i {
+    font-size: 20px;
+    margin: 4px;
+  }
+  
+  .logos i:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid Yellow;
+  }
+  
+  /* Second Navbar start */
+  
+  .nav-second {
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    align-items: center;
+    background-color: #dadada;
+  }
+  
+  .stuck {
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  
+  .navcategory {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navcategory a {
+    margin: 5px;
+    color: Black;
+  }
+  
+  .navcategory a:hover {
+    color: yellow;
+  }
+  
+  input {
+    border-radius: 7px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search i {
+    font-size: 25px;
+    margin: 4px;
+  }
+  
+  .search i:hover {
+    color: yellow;
+  }
+  
+  .wishlist {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wishlist i {
+    font-size: 25px;
+    margin: 4px;
+  }
+  
+  .wishlist i:hover {
+    color: yellow;
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart i {
+    font-size: 25px;
+    margin: 4px;
+  }
+  
+  .cart i:hover {
+    color: yellow;
+  }
+
+
+.parentcontact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.addrs h2{
+background-color: aqua;
+border: 2px solid black;
+border-radius: 15px;
+margin: 20px;
+
+}
+
+.addrs p{
+    font-size: 25px;
+}
+
+.contact label{
+    font-size: 25px;
+    background-color: burlywood;
+   margin: 15px 10px;
+}
+
+input{
+    margin:15px;
+}
+.contact input{
+    font-size: 25px;
+}
+  
+
+.contact button{
+    padding: 15px 15px;
+    border-color: chartreuse;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-color: aqua;
+}
+
+
+
+/* Footer Css */
+
+.footer-panel{
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+  background-color:gray;
+  color: white;
+  font-size: 30px;
+  margin: 15px 0px;
+}
+
+
+ul{
+  margin-top: 20px;
+}
+
+ul a {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+ul P{
+  font-size: 20px;
+}
+
+ul Pre{
+  font-size: 20px;
+}
+
+.copywrite{
+  display: flex;
+  align-items: center;
+  margin: 5px 0px 0px -80px;
+}
+.copywrite p{
+  font-size: 16px;
+}
+
+ul img{
+  mix-blend-mode: multiply;
+}
+
+.signup-everyone{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-signup{
+  z-index: 0;
+  
+}
+
+.sign-up-foam{
+  z-index: 2;
+}
+
+
+
+/* fixed button uparrow and .whatsapp-icon */
+
+.up-arrow {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0px 20px 20px 0px;
+}
+.up-btn {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: 1px solid rgb(44, 44, 43);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.up-btn:hover {
+  background-color: black;
+}
+
+.up-btn a {
+  text-decoration: none !important;
+}
+
+.up-btn a i:hover {
+  color: white;
+}
+
+.whatsapp-icon{
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  bottom: 0;
+  left:  0;
+  position: fixed;
+  margin: 0px 20px 20px 15px;
+}
+
+.whatsapp-icon i{
+ background-color: rgb(22, 180, 43);
+ height: 50px;
+ width: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 10px;
+}

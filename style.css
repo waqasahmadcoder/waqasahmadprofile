@@ -1,0 +1,569 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* First Navbar Start */
+.helpnumber p {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.main-nav {
+  height: 35px;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightseagreen;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.items a {
+  margin: 4px;
+  color: Black;
+}
+
+.items a:hover {
+  color: White;
+}
+
+.logos i {
+  font-size: 20px;
+  margin: 4px;
+}
+
+.logos i:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid Yellow;
+}
+
+/* Second Navbar start */
+
+.nav-second {
+  height: 80px;
+  width: 100%;
+  border-bottom: 2px solid #dadada;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+  align-items: center;
+  background-color: #dadada;
+}
+
+.stuck {
+  left: 0;
+  margin: 0 auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.navcategory {
+  display: flex;
+  align-items: center;
+}
+
+.navcategory a {
+  margin: 5px;
+  color: Black;
+}
+
+.navcategory a:hover {
+  color: yellow;
+}
+
+input {
+  border-radius: 7px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search i {
+  font-size: 25px;
+  margin: 4px;
+}
+
+.search i:hover {
+  color: yellow;
+}
+
+.wishlist {
+  display: flex;
+  align-items: center;
+}
+
+.wishlist i {
+  font-size: 25px;
+  margin: 4px;
+}
+
+.wishlist i:hover {
+  color: yellow;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart i {
+  font-size: 25px;
+  margin: 4px;
+}
+
+.cart i:hover {
+  color: yellow;
+}
+
+/* Start carousel here */
+
+.shop-Brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.shop-Brands b {
+  background-color: currentColor;
+  display: block;
+  flex: 1;
+  height: 2px;
+  opacity: 0.4;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4px;
+}
+
+.img-wrapper {
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  margin: 4px;
+  position: relative;
+}
+
+.inner-img {
+  transition: 0.4s;
+  background-size: cover;
+  height: 100px;
+}
+
+.inner-img:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+}
+
+.text:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+/* View all Button */
+
+.viewall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.btn-view {
+  height: 55px;
+  width: 350px;
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-view:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transition: ease-in 0.3s;
+}
+
+.shop-Category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 50px;
+}
+
+.shop-Category b {
+  background-color: currentColor;
+  display: block;
+  flex: 1;
+  height: 2px;
+  opacity: 0.4;
+}
+
+.two-pictures {
+  height: 340px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+}
+
+.right {
+  height: 335px;
+  width: 400px;
+  background-size: cover;
+  border: 1px solid transparent;
+  margin-left: 10px;
+  transition: 0.4s;
+  position: relative;
+}
+
+.right:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.3s;
+  background-size: cover;
+}
+
+.left {
+  border: 1px solid transparent;
+  height: 335px;
+  width: 450px;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+
+.left:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.3s;
+  background-size: cover;
+}
+
+#man-slider {
+  height: 320px;
+  width: 400px;
+}
+
+#woman-slider {
+  height: 320px;
+  width: 450px;
+}
+
+/* fixed button uparrow and .whatsapp-icon */
+
+.up-arrow {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0px 20px 20px 0px;
+}
+.up-btn {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: 1px solid rgb(44, 44, 43);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.up-btn:hover {
+  background-color: black;
+}
+
+.up-btn a {
+  text-decoration: none !important;
+}
+
+.up-btn a i:hover {
+  color: white;
+}
+
+
+.whatsapp-icon{
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  bottom: 0;
+  left:  0;
+  position: fixed;
+  margin: 0px 20px 20px 15px;
+}
+
+.whatsapp-icon i{
+ background-color: rgb(22, 180, 43);
+ height: 50px;
+ width: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 10px;
+}
+
+
+
+.offer p {
+  border: 1px solid black;
+  color: wheat;
+  background-color: red;
+  height: 25px;
+  width: 100px;
+}
+
+.fav i {
+  color: wheat;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  font-size: 40px;
+}
+
+.fav i:hover {
+  color: green;
+}
+
+.parent {
+  position: relative;
+  background-color: rgb(149, 221, 197);
+  width: 280px;
+  height: 550px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.parent:hover{
+  /* background-color: white; */
+  color: black;
+  /* border: 2px solid black; */
+  transition: ease-in;
+}
+
+.innerchild {
+  background-color: blue;
+}
+
+.subchild {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+
+}
+
+.innerchild img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+ 
+}
+
+.wadiparent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* border: 1px solid violet; */
+}
+
+.subchild i {
+  font-size: 40px;
+  color: red;
+  margin: 4px;
+}
+
+.innerchild img {
+  background-size: cover;
+  height: 270px;
+  width: 280px;
+}
+
+.subchild p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  height: 35px;
+  width: 50px;
+  margin: 5px 5px;
+}
+
+.detailspro {
+  margin-top: 220px;
+  position: absolute;
+}
+
+.detailspro p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.detailspro p del {
+  color: black;
+  text-decoration: line-through;
+}
+
+.detailspro h1 {
+  text-align: center;
+}
+
+.detailspro button {
+  padding: 10px 10px;
+  background-color: rgb(209, 230, 20);
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 3px solid transparent;
+}
+
+.equal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equal p{
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+/* lest make footer */
+
+.footer-panel{
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+  background-color:gray;
+  color: white;
+  font-size: 30px;
+  margin: 15px 0px;
+}
+
+
+ul{
+  margin-top: 20px;
+}
+
+ul a {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+ul P{
+  font-size: 20px;
+}
+
+ul Pre{
+  font-size: 20px;
+}
+
+.copywrite{
+  display: flex;
+  align-items: center;
+  margin: 5px 0px 0px -80px;
+}
+.copywrite p{
+  font-size: 16px;
+}
+
+ul img{
+  mix-blend-mode: multiply;
+}
+
+.signup-everyone{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-signup{
+  z-index: 0;
+  
+}
+
+.sign-up-foam{
+  z-index: 2;
+}
+
+
+.whatsapp-icon a{
+text-decoration: none;
+}
+
+/* dashboard */
+.show-requests {
+  width: 80%;
+  min-height: 450px;
+  margin: 20px auto;
+}
+
+/* table css */
+.request-table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+.request-table th, .request-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.request-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+.request-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.request-table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.request-table th, .request-table td {
+  text-align: center;
+}
